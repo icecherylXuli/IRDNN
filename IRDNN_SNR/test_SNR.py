@@ -1,10 +1,8 @@
-import torch,cv2,os
+import torch,cv2,os,argparse
 import torchvision
 from model import *
 from yuv_io import *
 import numpy as np
-import argparse
-from upsample_SHM import upsample
 from torchvision.utils import save_image
 from skimage.measure import compare_ssim
 from skimage.measure import compare_psnr
